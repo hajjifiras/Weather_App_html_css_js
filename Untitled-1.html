@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="test.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="test.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="icon" href="doge.png" />
 
-</head>
+    <title>Weather Meme</title>
+  </head>
 
-<body>
-  <div id="main">
-    <div class="search-box">
-      <button onclick="test()" class="btn-search"><i class="fas fa-search"></i></button>
-      <input type="text" id="result" class="input-search" placeholder="Enter a City Name...">
-    </div>
-    <div id="dp">
-      <p id="date1"></p>
-      <p id="place"></p>
-      <p id="dis"></p>
-    </div>
-    <div id="temp">
-      <p id="result1"></p>
-      <p id="result2"></p>
-      <div class="vertical-line"></div>
-      <div id="description1">
-        <p id="w"></p>
-        <p id="h"></p>
+  <body>
+    <h1 id="title">Weather MEME App</h1>
+    <div id="main0">
+      <div id="main">
+        <div class="search-box">
+          <button onclick="test()" class="btn-search">
+            <i class="fas fa-search"></i>
+          </button>
+          <input
+            type="text"
+            id="result"
+            class="input-search"
+            placeholder="Enter a City Name..."
+          />
+        </div>
+        <div id="dp">
+          <p id="place"></p>
+          <p id="dis"></p>
+        </div>
+        <div id="temp">
+          <p id="result1"></p>
+          <p id="result2"></p>
+          <div class="vertical-line"></div>
+          <div id="description1">
+            <p id="w"></p>
+            <p id="h"></p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-<!--comment added again 2-->
-  <script src="test.js"></script>
-</body>
-
+    <script src="test.js"></script>
+  </body>
 </html>
